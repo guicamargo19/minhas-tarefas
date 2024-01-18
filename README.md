@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# To do List
+
+Projeto desenvolvido em React e Styled Components com gerenciamento Redux
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
