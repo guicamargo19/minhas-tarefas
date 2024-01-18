@@ -1,10 +1,16 @@
-import React from 'react'
+import BarraLateral from './containers/BarraLateral'
+import ListaTarefas from './containers/ListaTarefas'
+import EstiloGlobal, { Container } from './styles'
 
 function App() {
   return (
-    <div className="App">
-      <h1>Olá ReactJS</h1>
-    </div>
+    <>
+      <EstiloGlobal />
+      <Container>
+        <BarraLateral />
+        <ListaTarefas />
+      </Container>
+    </>
   )
 }
 
