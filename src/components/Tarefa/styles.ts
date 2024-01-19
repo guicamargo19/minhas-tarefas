@@ -17,7 +17,7 @@ export const Titulo = styled.h3`
 export const Tag = styled.span`
   padding: 4px 8px;
   font-size: 10px;
-  font-weigh: bold;
+  font-weight: bold;
   color: #fff;
   background-color: #e1a32a;
   border-radius: 8px;
@@ -29,7 +29,7 @@ export const Descricao = styled.textarea`
   color: #8b8b8b;
   font-size: 14px;
   line-height: 24px;
-  font-familt: 'Roboto Mono', monospace;
+  font-family: 'Roboto Mono', monospace;
   display: block;
   width: 100%;
   margin-bottom: 16px;
