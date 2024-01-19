@@ -1,7 +1,7 @@
 import { useSelector } from 'react-redux'
-import Tarefa from '../../components/Tarefa'
 import { Container, Resultado } from './styles'
 import { RootReducer } from '../../store'
+import Tarefa from '../../components/Tarefa'
 
 const ListaTarefas = () => {
   const { itens } = useSelector((state: RootReducer) => state.tarefas)
@@ -15,7 +15,6 @@ const ListaTarefas = () => {
       tarefasFiltradas = tarefasFiltradas.filter(
         (item) => item.titulo.toLowerCase().search(termo.toLowerCase()) >= 0
       )
-
       if (criterio === 'prioridade') {
         tarefasFiltradas = tarefasFiltradas.filter(
           (item) => item.prioridade === valor
@@ -40,7 +39,6 @@ const ListaTarefas = () => {
     } else {
       mensagem = `${quantidade} tarefa(s) encontrada(s) como: "${`${criterio} -> ${valor}`}" ${complemento}`
     }
-
     return mensagem
   }
 
