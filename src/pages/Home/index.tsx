@@ -4,7 +4,7 @@ import BotaoAdicionar from '../../components/BotaoAdicionar'
 
 const Home = () => (
   <>
-    <BarraLateral />
+    <BarraLateral mostrarFiltros />
     <ListaTarefas />
     <BotaoAdicionar />
   </>
