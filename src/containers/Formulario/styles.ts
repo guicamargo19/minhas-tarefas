@@ -1,15 +1,16 @@
 import styled from 'styled-components'
 
 export const Form = styled.form`
-  max-width: 547px;
+  max-width: 550px;
   width: 100%;
   font-weight: bold;
   font-size: 14px;
-  color: #666666;
+  color: #666;
 
   textarea {
     resize: none;
     margin: 16px 0;
+    height: 80px;
   }
 `
 

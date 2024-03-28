@@ -1,12 +1,14 @@
 # Minhas tarefas
 
-Projeto desenvolvido no curso de Full Stack Python da EBAC - Escola Britânica de Artes Criativas e Tecnologia.
+<img src="public/tarefas.png">
 
 Este projeto permite inserir, remove e editar tarefas em uma listagem. Tarefas possuem título, descrição e prioridade.
 É possível filtrar as tarefas existentes por prioridade, concluídas e pendentes e todas. Assim como encontrar uma tarefa
 através de uma palavra ou termo no campo Buscar.
 
-Projeto desenvolvido em React com TypeScript e Redux para gerenciar estado da aplicação.
+Projeto desenvolvido em **ReactJS** com **TypeScript** e **Redux** para gerenciar estado da aplicação.
+
+Projeto desenvolvido no curso de Full Stack Python da EBAC - Escola Britânica de Artes Criativas e Tecnologia.
 
 ## 🚀 Começando
 

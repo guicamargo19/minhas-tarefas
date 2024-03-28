@@ -31,12 +31,13 @@ export const Titulo = styled.h2`
 `
 
 export const Campo = styled.input`
-  border-radius: 8px;
-  border-color: #666666;
-  color: #666666;
+  border-radius: 6px;
+  border-color: #666;
+  color: #666;
   background-color: #fff;
   padding: 8px;
   font-weight: bold;
+  outline-color: darkgray;
   width: 100%;
 `
 
